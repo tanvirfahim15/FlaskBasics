@@ -1,0 +1,11 @@
+{% for i in range(n) %}
+
+  {% if i==0 %}
+    <h1>zero</h1>
+  {% elif i==1 %}
+    <h1>one</h1>
+  {% else %}
+    <h1>{{i}}</h1>
+  {% endif %}
+
+{% endfor %}
